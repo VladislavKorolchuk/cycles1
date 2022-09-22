@@ -20,7 +20,7 @@ public class Main {
         System.out.println("\n\nДомашнеее задание 2");
         System.out.println("Задание 1");
         for (int i = 1904; i <= 2096; i = i + 4) {
-            System.out.println(i + "год является високосным ");
+            System.out.println(i + "год является високосным");
         }
         System.out.println("Задание 2");
         for (int i = 7; i <= 98; i = i + 7) {

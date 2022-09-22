@@ -38,17 +38,15 @@ public class Main {
         int theAmountOfAccumulation = 0; // Cумма накопления
         for (int i = 1; i <= 12; i++) {
             theAmountOfAccumulation = theAmountOfAccumulation + contribution;
-            System.out.println("Месяц " + i+ " сумма накоплений равна "+ theAmountOfAccumulation+ " рублей");
+            System.out.println("Месяц " + i + " сумма накоплений равна " + theAmountOfAccumulation + " рублей");
         }
         System.out.println("Задание 2");
-
-        contribution = 29000; // Вклад
-        theAmountOfAccumulation = 0; // Cумма накопления
+        double contribution1 = 29000; // Вклад
+        double theAmountOfAccumulation1 = 0; // Cумма накопления
         for (int i = 1; i <= 12; i++) {
-            theAmountOfAccumulation= theAmountOfAccumulation+= theAmountOfAccumulation/100;
-            theAmountOfAccumulation = theAmountOfAccumulation + contribution;
-            System.out.println("Месяц " + i+ " сумма накоплений равна "+ theAmountOfAccumulation+ " рублей");
+            theAmountOfAccumulation1 = theAmountOfAccumulation1 += theAmountOfAccumulation1 / 100;
+            theAmountOfAccumulation1 = theAmountOfAccumulation1 + contribution;
+            System.out.println("Месяц " + i+ " сумма накоплений равна " + String.format("%.2f", theAmountOfAccumulation1)+ " рублей");
         }
-
     }
 }
